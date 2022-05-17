@@ -1,43 +1,40 @@
-<!-- Desafío:
-🥇 Primero vamos a crear un repo para esta práctica pueden llamarla "login-landing".
-👉 Vamos a subir un ejercicio donde vamos a maquetar el siguiente diseño adjunto *mockuplogin.png*, primero realizaremos el Mockup (en Whimsical) el cual vamos a exportarlo en .jpg por si queres compartir tu avance en Discord y luego estructuramos con HTML5 el esqueleto del sitio + estilamos con CSS3.
-Por último, agarrar el repo del desafío anterior y vincularlo con Vercel.
-Compartí el link en el canal privado de Discord. -->
-
-
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Login-Landing</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-    <nav>
-
-    </nav>
-
     <main>
-
-        <div>
-            <form action="">
-                
-                <input type="email" name="mail" id="mail">
-                <input type="password" name="password" id="password">
-                <input type="button" value="entrar">
-                <input type="button" value="pswreset">
+        <div class="container">
+            <form class="flexform" action="">
+                <div>
+                    <img class="circle" src="/pilot.png" alt="pilot img">
+                    <p>BIENVENIDOS</p>
+                    <p> A VOLAR</p>
+                    <input type="email" name="mail" id="mail" placeholder="Email">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <input class="button" type="button" value="Despegue">
+                    <input class="olvido" type="button" value="Olvidé mi password">
+                </div>
             </form>
         </div>
-
-
     </main>
-
-    <footer>
-
-    </footer>
 </body>
+
+<footer>
+    <p>
+        <a href="https://github.com/cmarosa2891">https://github.com/cmarosa2891</a>
+    </p>
+</footer>
 
 </html>

@@ -1,0 +1,90 @@
+html {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    display: flex;
+    background-image: url("sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: inset 0px 1px 3px 3px lightskyblue;
+}
+
+.flexform{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    
+}
+
+.circle {
+    padding-top: 10px;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+}
+
+input {
+    display: flex;
+    margin-top: 5px;
+    padding: 3px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.button {
+    border-radius: 5px;
+    width: 200px;
+    height: 45px;
+    margin-top: 10px;
+    padding: 3px;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #81aed5, white 80%);
+}
+
+.olvido {
+    font-size: x-small;
+    font-style: italic;
+    background-color: rgba(255, 0, 0, 0.01);
+    border-color: aliceblue;
+    border-width: 1px;
+    border-radius: 10%;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 10;
+    width: 100%;
+    height: 3rem;
+}
+
+a {
+    font-size: small;
+    color: rgb(67, 117, 254);
+    font-family: serif;
+}
